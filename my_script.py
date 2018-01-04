@@ -1,3 +1,4 @@
+ENV PYTHONPATH /usr/local/lib/python2.7/dist-packages
 from flask import Flask
 from flask_restful import reqparse, abort, Api, Resource
 
